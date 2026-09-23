@@ -1,0 +1,9 @@
+openapi: "3.0.0"
+info:
+  title: PoC Negative Control API
+  version: 1.0.0
+paths: {}
+components:
+  schemas:
+    Leaked:
+      $ref: "https://github.com/octocat-nonexistent-48fffa/private-unreadable-3166ef/blob/main/secret.yaml"
