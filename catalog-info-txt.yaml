@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata: { name: poc-txt-api, description: "cross-repo $ref to a NON-yaml/json plaintext file" }
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: guests
+  definition:
+    $openapi: ./openapi-txt.yaml
