@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: poc-control-text-api
+  description: CONTROL 1 - core $text placeholder to a cross-repo URL, expected same-repository rejection
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: guests
+  definition:
+    $text: "https://github.com/aikoisdead/bs-poc-repo-b-6ae1ba78/blob/main/secret.yaml"
