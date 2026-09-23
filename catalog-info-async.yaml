@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata: { name: poc-async-api, description: "$asyncapi entry point cross-repo read" }
+spec:
+  type: asyncapi
+  lifecycle: experimental
+  owner: guests
+  definition:
+    $asyncapi: ./asyncapi.yaml
