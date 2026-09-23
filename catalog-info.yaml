@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: poc-crossrepo-api
+  description: ATTACK entity - $openapi placeholder bundling a cross-repo $ref into private repo B
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: guests
+  definition:
+    $openapi: ./openapi.yaml
