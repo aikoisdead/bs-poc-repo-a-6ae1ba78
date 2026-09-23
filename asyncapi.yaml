@@ -1,0 +1,7 @@
+asyncapi: "2.6.0"
+info: { title: PoC Async, version: 1.0.0 }
+channels: {}
+components:
+  schemas:
+    Leaked:
+      $ref: "https://github.com/aikoisdead/bs-poc-repo-b-6ae1ba78/blob/main/secret.yaml"
