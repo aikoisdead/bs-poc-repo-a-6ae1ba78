@@ -3,5 +3,4 @@ info: { title: SSRF Probe, version: 1.0.0 }
 paths: {}
 components:
   schemas:
-    Internal:
-      $ref: "http://169.254.169.254/latest/meta-data/"
+    Internal: { $ref: "http://169.254.169.254/latest/meta-data/" }
