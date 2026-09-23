@@ -1,0 +1,7 @@
+openapi: "3.0.0"
+info: { title: PoC PEM, version: 1.0.0 }
+paths: {}
+components:
+  schemas:
+    Leaked:
+      $ref: "https://github.com/aikoisdead/bs-poc-repo-b-6ae1ba78/blob/main/fake-id-rsa.pem"
